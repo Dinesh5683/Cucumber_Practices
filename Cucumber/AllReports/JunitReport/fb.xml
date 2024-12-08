@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="45.025" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="To validate Login functionality of Facebook Application" name="To validate login by using valid email and invalid password" time="33.814">
+<failure type="java.lang.StackOverflowError">
+<![CDATA[java.lang.StackOverflowError
+	at org.cucumber.Hooks.closeBrowser(Hooks.java:35)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to enter the Facebook login through Edge browser............passed
+When User have to enter valid Email and invalid password....................passed
+And User have to click login button.........................................passed
+Then User have to reach inavlid credentials page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Login functionality of Facebook Application" name="To validate login by using invalid email and invalid password" time="10.91">
+<failure type="java.lang.StackOverflowError">
+<![CDATA[java.lang.StackOverflowError
+	at org.cucumber.Hooks.closeBrowser(Hooks.java:35)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to enter the Facebook login through Edge browser............passed
+When User have to enter invalid email and invalid password..................passed
+And User have to click login button.........................................passed
+Then User have to reach inavlid credentials page............................passed
+]]></system-out>
+</testcase>
+</testsuite>
